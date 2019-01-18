@@ -13,7 +13,24 @@ print("UW Complex Calculator v0.1")
 let calc = Calculator()  // Don't change this declaration name; it's used in all the tests below
 
 // ====> Add your own tests here if you wish <====
-
+/*
+ print(calc.add(lhs: 2, rhs: 2), 4)
+print(calc.subtract(lhs: 2, rhs: 2), 0)
+print(calc.multiply(lhs: 2, rhs: 2), 4)
+print(calc.divide(lhs: 2, rhs: 2), 1)
+print(calc.mathOp(lhs: 5, rhs: 5, op: { ($0 + $1) + ($0 * $1) }), 35)
+print(calc.mathOp(lhs: 10, rhs: -5, op: { ($0 + $1) + ($0 - $1) }), 20)
+print(calc.add([1, 2, 3, 4, 5]), 15)
+print(calc.multiply([1, 2, 3, 4, 5]), 120)
+print(calc.count([1, 2, 3, 4, 5, 6, 7, 8]), 8)
+print(calc.count([]),  0)
+print(calc.avg([2, 2, 2, 2, 2, 2]), 2)
+print(calc.avg([1, 2, 3, 4, 5]), 3)
+print(calc.avg([1]),1)
+print(calc.mathOp(args: [1, 2, 3], beg: 0, op: { $0 + $1 }), 6)
+print(calc.mathOp(args: [1, 2, 3, 4, 5], beg: 0, op: { $0 + $1 }),15)
+print(calc.mathOp(args: [1, 1, 1, 1, 1], beg: 1, op: { $0 * $1 }), 1)
+ */
 
 // ====> Do not modify code in this section <====
 assert(calc.add(lhs: 2, rhs: 2) == 4)
